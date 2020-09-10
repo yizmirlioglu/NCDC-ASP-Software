@@ -33,9 +33,13 @@ Run the command  "python3 ncdc_python.py"
 FORMAT OF THE "network.lp" FILE:
 
 [Number of Objects]
+
 [Domain]
+
 [Constraint Type] [Target Object] [CDC Relation] [Reference Object]
+
 [Constraint Type] [Target Object] [CDC Relation] [Reference Object]
+
 [Constraint Type] [Target Object] [CDC Relation] [Reference Object]
 ...
 ...
@@ -43,15 +47,21 @@ FORMAT OF THE "network.lp" FILE:
 
 [Domain]
 0   Disconnected
+
 1   Connected
 
 [Constraint Type]
 "basic"            Basic CDC constraint
+
 "disj"             Disjunctive CDC constraint
+
 "default"          Default CDC constraint
+
 "disjdefault"      Disjunctive Default CDC constraint
 
+
 CDC relation must be written by separating each tile by ":" without any space between them. In case of single-tile relation, ":" is not used.  Tiles are written according to below encoding:
+
 sw: southwest  s:south  se:southeast  w:west  o:on   e:east  nw:northwest  n:north  ne:northeast
 
 In case of Disjunctive CDC constraint, Disjunctive Default CDC constraint or Disjunctive Positive Soft CDC constraint, disjuncts are written inside curly braces, separated by "," Some space can be left between disjuncts for readability but this is not necessary. See examples
