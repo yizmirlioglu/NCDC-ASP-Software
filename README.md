@@ -22,8 +22,11 @@ Python 3
 USAGE:
 
 Extract NCDC-ASP-Software.zip to a folder
+
 Enter your nCDC constraint network into "network.txt" file according to below format
+
 Open a Terminal from the folder
+
 Run the command  "python3 ncdc_python.py"
 
 
