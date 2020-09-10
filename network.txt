@@ -1,0 +1,16 @@
+8
+0
+basic 1 w:nw:n:ne 2
+basic 2 s:o 1
+basic 2 sw:w 3
+basic 2 n 4
+basic 3 e:ne 2
+basic 3 w:nw 5
+basic 4 se t 6
+disj 5 {se:e, sw:se, n, w:nw} 3
+basic 5 se 6
+basic 6 nw 4
+disj 7 {n:ne,n} 1
+basic 7 nw:ne 3
+basic 8 se:n:ne 7
+
