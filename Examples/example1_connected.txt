@@ -1,0 +1,8 @@
+4
+1
+basic 1 w:nw:n:ne 2
+basic 2 s:o 1
+basic 2 n 4
+basic 3 e:ne 2
+default 4 sw:s:se 2
+
